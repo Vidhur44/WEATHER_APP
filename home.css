@@ -1,0 +1,108 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+
+  background-image: url('ls3.jpg');
+  background-size: cover;
+
+}
+
+.search-box{
+
+display: flex;
+justify-content: center;
+padding-top: 11em; 
+padding-bottom: 5.99em;
+     
+}
+
+span {
+
+font-family: sans-serif;
+font-weight: lighter;
+color: whitesmoke;
+
+}
+
+.city {
+
+  padding-bottom: 4em;
+  
+}
+
+.summary {
+  padding-top: 3em;
+}
+
+.city,.summary ,.temperature,.humidity {
+
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.temperature,.humidity {
+
+   padding-bottom: 1em;
+
+}
+
+p.city-name{
+
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    font-weight: 300;
+    font-family: 'Courgette';
+
+}
+
+p.temperature-reading, p.humidity-reading {
+
+font-family: 'Poppins';
+font-size: 29px;
+font-weight: 500;
+color: whitesmoke;
+
+}
+
+p.summary-reading{
+
+    font-family: 'Courgette';
+    font-size: 29px;
+    font-weight: 300;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    
+}
+
+
+.searchDesign{
+
+     width: 30vw;
+     height: 4vh;
+     outline: none;
+     padding-left: 6px;
+     background-color: rgba(198, 215, 221, 0.8);
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     border-bottom: 3px solid #00B4CC;
+     border-radius: 0px 10px 0px 10px ;
+     color: black;
+     font-weight: 600;
+     font-size: 14px;
+     font-family: 'Poppins';
+     opacity: 0.85;
+  
+}
+
+.searchDesign:focus {
+ opacity: 1;
+}
